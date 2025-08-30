@@ -1,29 +1,30 @@
-# Meu Primeiro App React Native – Ecommerce
+Meu Primeiro App React Native – Ecommerce
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react) ![Mobile App](https://img.shields.io/badge/Mobile-App-blue?style=for-the-badge)
+Oi! Meu nome é Kauã Silva e este é o meu primeiro aplicativo desenvolvido com React Native.
+O app é um projeto de ecommerce, onde os usuários podem navegar por produtos, categorias e interagir com funcionalidades básicas de uma loja online.
 
-Oi, eu sou **Kauã Silva**! Este é o meu **primeiro app em React Native**, um projeto de **ecommerce** onde você pode explorar produtos e categorias de forma interativa.
+Funcionalidades
 
-### Funcionalidades
+Navegação entre telas de produtos e categorias
 
-* Navegação entre telas de produtos e categorias
-* Listagem de produtos por categoria
-* Design responsivo para dispositivos móveis
-* Botões interativos para navegação
+Listagem de produtos por categoria
 
-### Tecnologias
+Design responsivo para dispositivos móveis
 
-* React Native
-* Expo Router
-* Styled Components / React Native Styles
+Tecnologias Utilizadas
 
-### Objetivo
+React Native
 
-Aprender e aplicar conceitos de **React Native**, incluindo:
+Expo Router
 
-* Componentes e Props
-* Estados e Hooks
-* Navegação entre telas
-* Interação com usuários
+React Native Styles
 
+Objetivo
 
+Aprender e aplicar conceitos de React Native, incluindo:
+
+Componentes e Props
+
+Hooks e gerenciamento de estados
+
+Navegação entre telas
