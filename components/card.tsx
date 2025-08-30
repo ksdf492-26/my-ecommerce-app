@@ -1,8 +1,8 @@
 import { Image, Pressable, StyleSheet, Text, View } from "react-native"
-import { Props } from "../type"
+import { Product } from "../type/product"
 import { useRouter } from "expo-router"
 type props = {
-    card: Props
+    card: Product
 }
 function App({ card }: props) {
     const { id, name, bio, price, source } = card

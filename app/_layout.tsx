@@ -7,7 +7,7 @@ const style = StyleSheet.create({
 })
 function App () {
     return (
-        <Stack screenOptions={{headerShown:false}}>
+        <Stack screenOptions={{headerShown:false,headerStyle:{backgroundColor:"#0c0c0cff"},headerTintColor:"aliceblue"}}>
             <Stack.Screen name="index" />
             <Stack.Screen name="/[id]/card"/>
         </Stack>

@@ -9,7 +9,7 @@ function App () {
     const [full,setFull] = useState<number>(300)
     const router = useRoute()
     const {id} = router.params as {id:number | null}
-    const filter = Data.filter(data => data.id == Number(id))
+    const filter = Data.product.filter(data => data.id == Number(id))
     const styles = StyleSheet.create({
         safeareaview:{
             minHeight:'100%',

@@ -9,10 +9,10 @@ const style = StyleSheet.create({
 })
 function App() {
     return (
-        <Tabs>
-            <Tabs.Screen name="home" options={{ headerTitle: "Inicio", headerTitleAlign: "center", tabBarIcon: () => <FontAwesome size={30} name="home" /> }} />
-            <Tabs.Screen name="category" options={{ headerTitle: "Categorias", headerTitleAlign: "center", tabBarIcon: () => <FontAwesome size={30} name="th-large" /> }} />
-            <Tabs.Screen name="perfil" options={{ headerTitle: "Perfil", headerTitleAlign: "center", tabBarIcon: () => <FontAwesome size={30} name="user" /> }} />
+        <Tabs screenOptions={{headerStyle:{backgroundColor:"#0c0c0cff"},headerTintColor:"aliceblue", tabBarStyle:{backgroundColor:"#0c0c0cff",borderColor:"transparent"}}}>
+            <Tabs.Screen name="home" options={{ headerTitle: "Inicio", headerTitleAlign: "center", tabBarIcon: () => <FontAwesome color={'aliceblue'} size={30} name="home" />,title:"Home" }} />
+            <Tabs.Screen name="categories"  options={{headerShown:false, tabBarIcon: () => <FontAwesome  color={'aliceblue'}size={30} name="th-large" />,title:"Categories" }} />
+            <Tabs.Screen name="perfil" options={{ headerTitle: "Perfil", headerTitleAlign: "center", tabBarIcon: () => <FontAwesome color={'aliceblue'} size={30} name="user" />,title:"Perfil"}} />
            
         </Tabs>
     )

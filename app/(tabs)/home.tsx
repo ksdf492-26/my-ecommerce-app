@@ -1,6 +1,6 @@
 import { useRouter } from "expo-router"
 import { FlatList, Image, Pressable, SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native"
-import { Props } from "../../type"
+import { Product } from "../../type/product"
 import Card from "../../components/card"
 import { Data } from "../../data"
 function App () {
@@ -17,7 +17,7 @@ function App () {
     const {safeareaview} = styles
     return (
         <SafeAreaView style={safeareaview}>
-             <FlatList keyExtractor={(item) => item.id.toString()} data={Data} renderItem={({item}: {item:Props}) => (<Card card={item}/> )}  />
+             <FlatList keyExtractor={(item) => item.id.toString()} data={Data.product} renderItem={({item}: {item:Product}) => (<Card card={item}/> )}  />
         </SafeAreaView>
     )
 }
