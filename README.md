@@ -6,7 +6,8 @@ Oi, eu sou **Kauã Silva**! Este é o meu **primeiro app em React Native**, um p
 
 ### Demonstração
 
-![GIF ilustrativo mostrando a navegação e listagem de produtos](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+![Demo App](assets/telas.png)
+
 
 ### Funcionalidades
 
